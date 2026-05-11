@@ -153,7 +153,7 @@ def verify_admin_login(email, password):
 
 
 # ---------------- API CONFIG ----------------
-INSTANCE_KEY = os.environ.get("ULTRAMSG_INSTANCE_ID", "instance143653")
+INSTANCE_KEY = os.environ.get("ULTRAMSG_INSTANCE_ID", "instance174479")
 TOKEN = os.environ.get("ULTRAMSG_TOKEN")
 API_URL = f"https://api.ultramsg.com/{INSTANCE_KEY}/messages/chat"
 
